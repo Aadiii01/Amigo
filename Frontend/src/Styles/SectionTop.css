@@ -1,0 +1,330 @@
+.toplayer {
+  width: 100%;
+  margin-bottom: 3.5rem;
+}
+
+.topmainheading {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.DesktopField {
+  display: none;
+}
+
+.firstselect {
+  display: inline-block;
+  margin: 1rem 1.5rem 0 0;
+  margin-top: 0.75rem;
+}
+
+.firstfield {
+  display: inline-flex;
+  vertical-align: text-top;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.MobileField {
+  display: block;
+}
+
+.Mobilefirstfield {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+}
+.Mobilefirstfield:first-child {
+  margin-top: 0.75rem;
+}
+
+.top10Section {
+  margin-top: 0.75rem;
+}
+.topSection1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.structure {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.ulliststyle {
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-y: visible;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-scroll-snap-type: x mandatory;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+  scroll-margin-inline-start: 2.5em;
+}
+
+.listyle {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  display: flex;
+  scroll-margin-inline-start: 2.3rem;
+  padding: 0.3rem 0.625rem;
+}
+
+.buttonclass {
+  position: relative;
+  cursor: pointer;
+  text-transform: none;
+  overflow: visible;
+  padding: 0;
+  background: rgb(35, 35, 35);
+  border: none;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.buttonclass:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.imagediv {
+  position: relative;
+  border-radius: 0.5rem;
+  background-color: rgb(35, 35, 35);
+  width: 7rem;
+  height: 9.8rem;
+}
+
+.imagestyles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.5rem;
+  z-index: 1;
+  background-color: rgb(35, 35, 35);
+  animation: loading 4000ms infinite linear;
+  animation-delay: 0ms;
+}
+
+.imgclass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.5rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 2;
+}
+
+.numbersclass {
+  position: absolute;
+  z-index: 2;
+  font-size: 4rem;
+  bottom: 0.1rem;
+  left: -0.625rem;
+}
+
+.numberstyle {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.numstyle {
+  line-height: 1;
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  font-weight: 700;
+  color: rgb(65, 65, 65);
+  -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+  text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.numstyle::before {
+  content: attr(data-content);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0;
+  position: absolute;
+}
+
+.slider {
+  position: absolute;
+  height: 100%;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  z-index: 3;
+  background: rgb(0, 0, 0);
+  right: 0;
+  padding-left: 0.75rem;
+  -webkit-transition: -webkit-transform 400ms ease-in-out;
+  transition: transform 400ms ease-in-out;
+}
+
+.silderbutton {
+  cursor: pointer;
+  text-transform: none;
+  overflow: visible;
+  height: 7.5rem;
+  width: 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.slider button {
+  transition: opacity 400ms ease-in-out;
+}
+
+.leftslider {
+  position: absolute;
+  height: 100%;
+  border: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 3;
+  background: rgb(0, 0, 0);
+  left: 0px;
+  padding-right: 0.75rem;
+  transition: transform 400ms ease-in-out;
+}
+
+.leftsilderbutton {
+  cursor: pointer;
+  text-transform: none;
+  overflow: visible;
+  height: 7.5rem;
+  width: 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.leftsilderbutton:hover {
+  background-color: #444444;
+}
+
+.silderbutton:hover {
+  background-color: #444444;
+}
+
+.leftslider button {
+  transition: opacity 400ms ease-in-out;
+}
+
+@media (min-width: 600px) {
+  .topmainheading {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .listyle {
+    scroll-margin-inline-start: 2.4rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .toplayer {
+    margin-bottom: 4rem;
+  }
+  .topmainheading {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .DesktopField {
+    display: inherit;
+  }
+  .firstselect {
+    margin-top: 1rem;
+  }
+  .MobileField {
+    display: none;
+  }
+  .top10Section {
+    margin-top: 1rem;
+  }
+  .listyle {
+    padding: 0.4rem 1.375rem;
+  }
+  .imagediv {
+    width: 8.75rem;
+    height: 12.25rem;
+  }
+  .numbersclass {
+    font-size: 5rem;
+    bottom: -0.7rem;
+    left: -1.375rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .topmainheading {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .listyle {
+    scroll-margin-inline-start: 2.75rem;
+    padding: 0.5rem 1.375rem;
+  }
+  .imagediv {
+    width: 11.25rem;
+    height: 15.75rem;
+  }
+  .numbersclass {
+    font-size: 6.25rem;
+  }
+}

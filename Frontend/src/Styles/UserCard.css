@@ -1,0 +1,50 @@
+.setfile {
+  width: 100%;
+  height: calc(100vh - 125px);
+}
+
+.text{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-image {
+  width: 100%;
+  height: calc(100vh - 125px);
+  object-fit: cover;
+}
+
+@media (min-width: 500px) {
+  .setfile {
+    width: 100%;
+    height: calc(100vh - 125px);
+  }
+}
+
+@media (min-width: 535px) {
+  .setfile {
+    width: 440px;
+    height: calc(100vh - 125px);
+  }
+}
+
+@media (min-width: 600px) {
+  .setfile {
+    width: 340px;
+    height: calc(100vh - 125px);
+  }
+}
+
+@media (min-width: 760px) {
+  .setfile {
+    width: 340px;
+    height: calc(100vh - 125px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .setfile {
+    width: 340px;
+    height: calc(100vh - 170px);
+  }
+}

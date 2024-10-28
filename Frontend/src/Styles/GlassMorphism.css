@@ -1,0 +1,29 @@
+.glassmorphism {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  /* Glassmorphism effect */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
+}
+
+.custom-email-input input {
+  color: white; 
+}
+.custom-email-input input:-webkit-autofill {
+  -webkit-text-fill-color: white !important; 
+}
+
+.custom-email-input input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white !important; 
+}
+
+.custom-email-input input:-webkit-autofill::selection {
+  background: transparent; 
+}
+

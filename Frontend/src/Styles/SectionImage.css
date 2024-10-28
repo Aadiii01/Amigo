@@ -1,0 +1,339 @@
+.mainsection {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 120rem;
+  align-items: center;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 3;
+}
+.first::before {
+  content: "";
+  width: 1px;
+  margin-left: -1px;
+  height: 0;
+  padding-top: 46.666666666666664%;
+  box-sizing: border-box;
+}
+.imgpage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.imgpage1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.bg1 {
+  background-image: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8965) 8.5%,
+    rgba(0, 0, 0, 0.8861) 17%,
+    rgba(0, 0, 0, 0.8688) 25.5%,
+    rgba(0, 0, 0, 0.8444) 34%,
+    rgba(0, 0, 0, 0.8132) 42.5%,
+    rgba(0, 0, 0, 0.775) 51%,
+    rgba(0, 0, 0, 0.7368) 59.5%,
+    rgba(0, 0, 0, 0.7056) 68%,
+    rgba(0, 0, 0, 0.6813) 76.5%,
+    rgba(0, 0, 0, 0.6639) 85%,
+    rgba(0, 0, 0, 0.6535) 93.5%,
+    rgba(0, 0, 0, 0.65) 102%
+  );
+}
+.image {
+  height: 100%;
+  width: auto;
+  position: absolute;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  z-index: 3;
+}
+
+.firstbox {
+  margin: -2rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  width: 100%;
+  max-width: 120rem;
+  justify-content: center;
+  padding: 0 2rem 2rem 2rem;
+  min-height: 31rem;
+}
+
+.firstbox1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-self: center;
+  max-width: 100%;
+}
+
+.firstheading {
+  position: relative;
+  text-align: center;
+}
+
+.mainheading {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.h1heading {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.pheading {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.secondheading {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.texturemain {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+  height: 6.25rem;
+  z-index: 1;
+}
+
+.texturefirst {
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border: solid 0.25rem transparent;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  border-bottom: none;
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+  background-clip: padding-box;
+  width: 200%;
+  left: -50%;
+}
+
+.texturefirst::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin-top: -0.25rem;
+  border-radius: inherit;
+  background: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
+}
+
+.texturelast {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 1.375em;
+}
+
+@media (min-width: 600px) {
+  .bg1 {
+    background-image: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.85) 3%,
+      rgba(0, 0, 0, 0.8465) 11.08%,
+      rgba(0, 0, 0, 0.8361) 19.17%,
+      rgba(0, 0, 0, 0.8187) 27.25%,
+      rgba(0, 0, 0, 0.7944) 35.33%,
+      rgba(0, 0, 0, 0.7632) 43.42%,
+      rgba(0, 0, 0, 0.725) 51.5%,
+      rgba(0, 0, 0, 0.6868) 59.58%,
+      rgba(0, 0, 0, 0.6556) 67.67%,
+      rgba(0, 0, 0, 0.6313) 75.75%,
+      rgba(0, 0, 0, 0.6139) 83.83%,
+      rgba(0, 0, 0, 0.6035) 91.92%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+  }
+  .firstbox1 {
+    max-width: 27rem;
+  }
+  .h1heading {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .pheading {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .texturefirst {
+    width: 180%;
+    left: -40%;
+  }
+  .texturelast {
+    margin-top: 1.875em;
+  }
+}
+
+@media (min-width: 960px) {
+  .bg1 {
+    background-image: linear-gradient(
+      12deg,
+      rgba(0, 0, 0, 0.85) 36%,
+      rgba(0, 0, 0, 0.8465) 40.58%,
+      rgba(0, 0, 0, 0.8361) 45.17%,
+      rgba(0, 0, 0, 0.8187) 49.75%,
+      rgba(0, 0, 0, 0.7944) 54.33%,
+      rgba(0, 0, 0, 0.7632) 58.92%,
+      rgba(0, 0, 0, 0.725) 63.5%,
+      rgba(0, 0, 0, 0.6868) 68.08%,
+      rgba(0, 0, 0, 0.6556) 72.67%,
+      rgba(0, 0, 0, 0.6313) 77.25%,
+      rgba(0, 0, 0, 0.6139) 81.83%,
+      rgba(0, 0, 0, 0.6035) 86.42%,
+      rgba(0, 0, 0, 0.6) 91%
+    );
+  }
+  .image {
+    height: auto;
+    width: 100%;
+  }
+  .firstbox {
+    min-height: 37rem;
+  }
+  .firstbox1 {
+    max-width: 31.75rem;
+  }
+  .h1heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .pheading {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+  .texturefirst {
+    width: 150%;
+    left: -25%;
+  }
+  .texturelast {
+    margin-top: 1.25em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bg1 {
+    background-image: linear-gradient(
+      7deg,
+      rgba(0, 0, 0, 0.85) 10%,
+      rgba(0, 0, 0, 0.8465) 17.25%,
+      rgba(0, 0, 0, 0.8361) 24.5%,
+      rgba(0, 0, 0, 0.8187) 31.75%,
+      rgba(0, 0, 0, 0.7944) 39%,
+      rgba(0, 0, 0, 0.7632) 46.25%,
+      rgba(0, 0, 0, 0.725) 53.5%,
+      rgba(0, 0, 0, 0.6868) 60.75%,
+      rgba(0, 0, 0, 0.6556) 68%,
+      rgba(0, 0, 0, 0.6312) 75.25%,
+      rgba(0, 0, 0, 0.6139) 82.5%,
+      rgba(0, 0, 0, 0.6035) 89.75%,
+      rgba(0, 0, 0, 0.6) 97%
+    );
+  }
+  .firstbox {
+    min-height: min(80vh, 45rem);
+  }
+  .firstbox1 {
+    max-width: 36.75rem;
+  }
+  .h1heading {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+  .pheading {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .texturefirst {
+    width: 130%;
+    left: -15%;
+  }
+  .texturelast {
+    margin-top: 1.375em;
+  }
+}
+
+@supports (object-fit: cover) {
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}

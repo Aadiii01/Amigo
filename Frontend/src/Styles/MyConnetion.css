@@ -1,0 +1,57 @@
+.scrolll {
+  display: grid;
+  gap: 12px;
+  max-height: calc(100vh - 160px);
+}
+
+.connectioncard {
+  max-width: 370px;
+}
+
+@media (min-width: 500px) {
+  .scrolll {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(1, 1fr);
+    max-height: calc(100vh - 130px);
+  }
+  .connectioncard {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 568px) {
+  .scrolll {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    max-height: calc(100vh - 150px);
+  }
+}
+
+@media (min-width: 640px) {
+  .scrolll {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    max-height: calc(100vh - 140px);
+  }
+}
+
+@media (min-width: 768px) {
+  .scrolll {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    max-height: calc(100vh - 160px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .scrolll {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-height: calc(100vh - 170px);
+  }
+}

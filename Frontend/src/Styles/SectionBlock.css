@@ -1,0 +1,292 @@
+.SectionBlock {
+  width: 100%;
+  margin-bottom: 3.5rem;
+}
+
+.divin {
+  display: inherit;
+}
+
+.SectionBlockStructure {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: inherit;
+  height: inherit;
+  margin-left: -0px;
+  width: 100%;
+  flex-direction: column;
+  padding: 0px;
+  margin-top: -0.75rem;
+}
+
+.SectionBlockFirstHeading {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: inherit;
+  padding: 0px;
+  width: calc(100% - 0px);
+}
+
+.AmigoJoin {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.wrapper {
+  width: 100%;
+  display: inherit;
+  height: auto;
+}
+
+.SectionBlockStructure > * {
+  margin-top: 0.75rem;
+  margin-left: 0px;
+}
+
+.BlockSection {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: inherit;
+  height: inherit;
+  flex-direction: row;
+  padding: 0px;
+  margin-top: -0.5rem;
+  margin-left: -0.75rem;
+  width: calc(100% + 0.75rem);
+}
+
+.BlockSection > * {
+  margin-top: 0.5rem;
+  margin-left: 0.75rem;
+}
+
+.Blocks {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: inherit;
+  padding: 0px;
+  flex: 0 0 calc(100% - 0.75rem);
+}
+
+.BodyBolock {
+  border-radius: 1rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+  backdrop-filter: blur(30px);
+  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+}
+
+.usualdiv {
+  width: 100%;
+  display: inherit;
+  height: auto;
+}
+
+.headingdiv {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: inherit;
+  height: inherit;
+  margin-left: -0px;
+  width: 100%;
+  flex-direction: column;
+  margin-top: -0.5rem;
+  padding: 1.5rem 1rem 5rem 1rem;
+}
+
+.firstheadingdiv {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: inherit;
+  padding: 0px;
+  width: calc(100% - 0px);
+}
+
+.headingdiv > * {
+  margin-left: 0px;
+  margin-top: 0.5rem;
+}
+
+.h3Heading {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.pheading {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.BlockLogo {
+  position: absolute;
+  bottom: 0.25rem;
+  right: 0.25rem;
+  transform: translate(36px, 36px) scale(0.88) translate(-36px, -36px);
+}
+
+@media (min-width: 600px) {
+  .SectionBlockStructure {
+    margin-top: -0.75rem;
+  }
+  .SectionBlockFirstHeading {
+    width: calc(100% - 0px);
+  }
+  .AmigoJoin {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .SectionBlockStructure > * {
+    margin-top: 0.75rem;
+  }
+  .BlockSection {
+    margin-top: -0.5rem;
+    margin-left: -0.75rem;
+    width: calc(100% + 0.75rem);
+  }
+  .BlockSection > * {
+    margin-top: 0.5rem;
+    margin-left: 0.75rem;
+  }
+
+  .Blocks {
+    flex: 0 0 calc(100% - 0.75rem);
+  }
+
+  .BodyBolock {
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+  }
+  .headingdiv {
+    margin-top: -0.5rem;
+    padding: 1.5rem 1rem 6rem 1rem;
+  }
+  .firstheadingdiv {
+    width: calc(100% - 0px);
+  }
+  .headingdiv > * {
+    margin-top: 0.5rem;
+  }
+  .h3Heading {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 960px) {
+  .SectionBlock {
+    margin-bottom: 4rem;
+  }
+  .SectionBlockStructure {
+    margin-top: -1rem;
+  }
+  .SectionBlockFirstHeading {
+    width: calc(100% - 0px);
+  }
+  .AmigoJoin {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .SectionBlockStructure > * {
+    margin-top: 1rem;
+  }
+  .BlockSection {
+    margin-top: -0.75rem;
+    margin-left: -0.75rem;
+    width: calc(100% + 0.75rem);
+  }
+  .BlockSection > * {
+    margin-top: 0.75rem;
+    margin-left: 0.75rem;
+  }
+
+  .Blocks {
+    flex: 0 0 calc(50% - 0.75rem);
+  }
+
+  .headingdiv {
+    margin-top: -0.75rem;
+    padding: 1.5rem 1.5rem 6rem 1.5rem;
+  }
+  .firstheadingdiv {
+    width: calc(100% - 0px);
+  }
+  .headingdiv > * {
+    margin-top: 0.75rem;
+  }
+  .h3Heading {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .BlockLogo {
+    bottom: 0.5rem;
+    right: 0.5rem;
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 1280px) {
+  .SectionBlockStructure {
+    margin-top: -1rem;
+  }
+  .SectionBlockFirstHeading {
+    width: calc(100% - 0px);
+  }
+  .AmigoJoin {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .SectionBlockStructure > * {
+    margin-top: 1rem;
+  }
+  .BlockSection {
+    margin-top: -0.75rem;
+    margin-left: -1rem;
+    width: calc(100% + 1rem);
+  }
+  .BlockSection > * {
+    margin-top: 0.75rem;
+    margin-left: 1rem;
+  }
+
+  .Blocks {
+    flex: 0 0 calc(25% - 1rem);
+  }
+
+  .headingdiv {
+    margin-top: -1rem;
+    padding: 1.5rem 1rem 8rem 1rem;
+  }
+  .firstheadingdiv {
+    width: calc(100% - 0px);
+  }
+  .headingdiv > * {
+    margin-top: 1rem;
+  }
+  .h3Heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .BlockLogo {
+    bottom: 0.75rem;
+    right: 0.75rem;
+    transform: scale(1);
+  }
+}

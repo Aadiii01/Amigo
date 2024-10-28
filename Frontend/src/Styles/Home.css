@@ -1,0 +1,76 @@
+.react-autosuggest__container{
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .125);
+    position: relative;
+}
+
+.inpclass{
+background: linear-gradient(to right, #e50914 -0.08%, #c94ff5 81.14%, #5b79f1 99.92%);
+position: relative;
+padding: 2px;
+border-radius: 4px;
+}
+
+.inpclass .form-control {
+    border: 0;
+    margin: 0;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.react-autosuggest__container .form-control {
+    border-color: #8b8a88;
+    padding: 9px 16px 9px 52px;
+}
+
+.form-control {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 400;
+    outline: none;
+    padding: 15px 16px;
+    width: 100%;
+}
+
+.react-autosuggest__container .search-control {
+    opacity: .7;
+}
+.react-autosuggest__container .search-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    pointer-events: none;
+    background: url("https://help.nflxext.com/helpcenter/028c6bbe5a9d5b14a820.svg") center center no-repeat;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    text-indent: -9999em;
+    z-index: 1;
+    box-shadow: none;
+    padding: 0;
+}
+
+
+/* .gradientt{
+    background: radial-gradient(300% 100% at center top, rgba(169, 185, 250, 0.15) 0%, rgba(251, 251, 251, 0) 25%);
+} */
+
+.gradientt{
+    background-image: linear-gradient(360deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+  

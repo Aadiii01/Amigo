@@ -1,0 +1,42 @@
+.footerClass {
+  border-top: 1px solid #333;
+}
+.borderclass {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: #fff;
+}
+.width {
+  width: calc(1200px + calc(2 * 24px));
+}
+@media screen and (max-width: 960px) {
+  .mobile {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .logo {
+    grid-column: 1 / -1;
+  }
+}
+
+.icon_class {
+  display: none !important;
+}
+
+@media screen and (max-width: 960px) {
+  .icon_class {
+    display: flex !important;
+  }
+}
+
+.logo_class {
+  display: flex !important;
+}
+@media screen and (max-width: 960px) {
+  .logo_class {
+    display: none !important;
+  }
+}

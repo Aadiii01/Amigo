@@ -1,0 +1,293 @@
+.FAQSectionBlock {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: inherit;
+  height: inherit;
+  margin-top: -1rem;
+  margin-left: -0px;
+  width: 100%;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.FAQSectionBlock > * {
+  margin-top: 1rem;
+  margin-left: 0px;
+}
+
+.FAQBlock {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: inherit;
+  padding: 0px;
+  width: fit-content;
+}
+
+.h2Faq {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.ulFAQ {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.liFAQ {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  margin: 0 0 0.5rem 0;
+}
+
+.h3listFAQ {
+  margin: 0;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  position: relative;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  transition-duration: 250ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+  border-radius: 0rem;
+}
+
+.h3listFAQ:hover {
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  background-color: rgb(65, 65, 65);
+}
+
+.h3listFAQOpen {
+  margin: 0px 0px 0.0625rem;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  transition-duration: 250ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+  border-radius: 0rem;
+}
+
+.h3listFAQOpen:hover {
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  background-color: rgb(65, 65, 65);
+}
+
+.buttonFAQ {
+  overflow: visible;
+  text-transform: none;
+  appearance: none;
+  background: none;
+  border-radius: 0;
+  border: 0;
+  box-sizing: content-box;
+  color: inherit;
+  cursor: default;
+  display: inline;
+  font: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: left;
+}
+
+.buttonFAQ:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.buttonFAQ:focus {
+  outline: none;
+  outline: #a9a9a9 auto 5px;
+  outline: Highlight auto 5px;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.h3listFAQ > button {
+  padding: 1.5rem;
+}
+
+.h3listFAQ > button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.h3listFAQ > button:focus {
+  outline: none;
+  outline: rgb(255, 255, 255) solid 0.125rem;
+  outline-offset: 0.125rem;
+}
+
+.h3listFAQOpen > button {
+  padding: 1.5rem;
+}
+
+.h3listFAQOpen > button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.h3listFAQOpen > button:focus {
+  outline: none;
+  outline: rgb(255, 255, 255) solid 0.125rem;
+  outline-offset: 0.125rem;
+}
+
+.svg {
+  flex-shrink: 0;
+  transform: rotate(0);
+  overflow: hidden;
+}
+
+.svgnew {
+  flex-shrink: 0;
+  transform: rotate(-45deg);
+}
+
+.svg2 {
+  flex-shrink: 0;
+  transform: rotate(0);
+  overflow: hidden;
+}
+
+.svg2new {
+  flex-shrink: 0;
+  transform: rotate(-45deg);
+}
+
+.AnaswerFAQ {
+  overflow: hidden;
+  max-height: 0;
+  visibility: collapse;
+  max-height: 0;
+  padding: 0 1.5rem;
+  transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  text-align: left;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-radius: 0rem;
+}
+
+.AnaswerFAQOpen {
+  overflow: hidden;
+  max-height: none;
+  visibility: visible;
+  padding: 1.5rem;
+  transition: 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  text-align: left;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-radius: 0rem;
+}
+
+.spananswer {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+@media (min-width: 600px) {
+  .FAQBlock {
+    width: fit-content;
+  }
+  .h2Faq {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .h3listFAQ {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .h3listFAQOpen {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .spananswer {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 960px) {
+  .FAQBlock {
+    width: fit-content;
+  }
+  .h2Faq {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .h3listFAQ {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .h3listFAQOpen {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .svg2 {
+    display: none;
+  }
+  .svg2new {
+    display: none;
+  }
+  .spananswer {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1280px) {
+  .FAQBlock {
+    width: fit-content;
+  }
+  .h2Faq {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .h3listFAQ {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .h3listFAQOpen {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .spananswer {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 959.98px) {
+  .svg {
+    display: none;
+  }
+  .svgnew {
+    display: none;
+  }
+}

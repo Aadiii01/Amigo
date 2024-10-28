@@ -1,0 +1,103 @@
+.centerContainer.firstLoad,
+.centerContainer.sameMode {
+  display: block;
+}
+
+div.centerContainer.emailVerified {
+  margin-bottom: -95px;
+  padding: 0 24px;
+}
+
+.emailVerificationContainer {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  font-style: normal;
+  margin: 24px auto 0;
+  max-width: 440px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.emailVerificationLogo {
+  border: 3px solid #e50914;
+  border-radius: 50%;
+  color: #e50914;
+  height: 45px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 45px;
+}
+
+.emailVerificationLogo svg {
+  height: 24.55px;
+  position: absolute;
+  transform: translate(-12px, 10px);
+  width: 24.55px;
+  left: 20px;
+}
+
+.stepHeader {
+  display: inline-block;
+}
+
+div.basicLayout .stepIndicator {
+  font-size: 12px;
+  text-align: inherit;
+}
+
+.stepIndicator {
+  display: block;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: left;
+}
+
+.emailVerificationContainer .verifiedHeader {
+  color: #000;
+  font-size: 32px;
+  line-height: 40px;
+}
+h1 {
+  font-size: 27px;
+  margin: 0 0 0.4em;
+}
+
+.emailVerificationContainer .subheader {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 12px;
+}
+
+.emailVerificationContainer .btnContainer {
+  align-self: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  margin-top: 26px;
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (min-width: 740px) {
+  div.centerContainer.emailVerified {
+    margin-bottom: 0;
+    margin-top: 7%;
+  }
+  h1 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .emailVerificationContainer {
+    align-items: flex-start;
+    text-align: start;
+  }
+  .emailVerificationContainer .btnContainer {
+    margin-bottom: 26px;
+    margin-top: 50%;
+  }
+}

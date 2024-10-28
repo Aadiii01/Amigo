@@ -1,0 +1,14 @@
+Backend/node_modules/
+Frontend/node_modules/
+Frontend/src/hooks
+Frontend/src/lib
+Frontend/src/Components/ui
+Frontend/src/Utils/constant.js
+Frontend/src/Utils/fonts
+Frontend/src/cursor.css
+Frontend/package.json
+Backend/package.json
+
+
+Backend/.env
+Frontend/.env

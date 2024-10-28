@@ -1,0 +1,36 @@
+.landingpage {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  margin-top: -1rem;
+  padding: 0 1.5rem;
+}
+
+.landingpageflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .landingpage {
+    margin-top: -2rem;
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .landingpage {
+    padding: 0 5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .landingpage {
+    padding: 0 9.25rem;
+  }
+}
